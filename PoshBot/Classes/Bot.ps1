@@ -119,7 +119,6 @@ class Bot : BaseLogger {
             }
         }
     }
-
     [void]LoadConfiguration() {
         $botConfig = $this.Storage.GetConfig($this.Name)
         if ($botConfig) {
